@@ -76,14 +76,12 @@ ________________________________________________________________________________
 
 Скачать все ветки с origin, но не мерджить их в локальный репозиторий: git fetch origin
 
-Аналогично предыдущему, но только для одной заданной ветки:
-git fetch origin master
 
-Начать работать с веткой some_branch (уже существующей):
-git checkout -b some_branch origin/some_branch
+Аналогично предыдущему, но только для одной заданной ветки: git fetch origin master
 
-История изменений:
-git log
+Начать работать с веткой some_branch (уже существующей): git checkout -b some_branch origin/some_branch
+
+ИСТОРИЯ ИЗМЕНЕНИЙ: git log
 
 История изменений в обратном порядке:
 git log --reverse
